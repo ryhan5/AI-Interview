@@ -25,7 +25,7 @@ export default[
         id:1,
         name:'Monthly',
         cost:7.99,
-        paymentLink:'rehanakhtar99035@oksbi',
+        paymentLink:'#',
         offering:[
             {
                 value:'✔️ Create 3 Free Mock Interview'
