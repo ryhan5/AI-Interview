@@ -1,16 +1,13 @@
 import React from 'react'
 import Header from './_components/Header'
 
-function DashboardLayout({children}) {
+export default function DashboardLayout({ children }) {
   return (
-    <div>
-        <Header/>
-        <div className='mx-5 md:mx-20 lg:mx-36'>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow pt-[var(--header-height)]">
         {children}
-        </div>
-       
+      </main>
     </div>
   )
 }
-
-export default DashboardLayout
