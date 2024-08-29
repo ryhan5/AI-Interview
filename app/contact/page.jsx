@@ -35,11 +35,11 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center">
               <Phone className="h-5 w-5 mr-2" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 123-4567</span>
             </div>
             <div className="flex items-center">
               <MapPin className="h-5 w-5 mr-2" />
-              <span>123 Example Street, City, Country</span>
+              <span>Techno India University, West Bengal, India</span>
             </div>
           </div>
           <p className="mt-8 text-sm opacity-75">
