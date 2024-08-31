@@ -16,7 +16,7 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Here you would typically send the form data to your backend
+    // Here send the form data to backend
   };
 
   return (
