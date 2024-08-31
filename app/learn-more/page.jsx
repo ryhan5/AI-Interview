@@ -75,7 +75,7 @@ export default function LearnMore() {
         </div>
         
         <div className="text-center">
-          <Link href="/" className="inline-block bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition-colors duration-300">
+          <Link href="/" className="inline-block bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-500 transition-colors duration-300">
             Back to Home
           </Link>
         </div>
