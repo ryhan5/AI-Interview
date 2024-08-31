@@ -7,8 +7,8 @@ import Header from "@/app/dashboard/_components/Header";
 const inter = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AI mock interview",
-  description: "made by rehan",
+  title: "prept.",
+  description: "innov8rs",
 };
 
 export default function RootLayout({ children }) {
@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
-          <Header /> {/* Add the Header component here */}
-          <main > {/* Add padding-top to account for fixed header */}
+          <Header />
+          <main > 
             {children}
           </main>
           <Toaster />

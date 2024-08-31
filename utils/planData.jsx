@@ -11,10 +11,10 @@ export default[
                 value:'✔️ Unlimited Retake Interview'
             },
             {
-                value:'❌ Practice Question'
+                value:'❌ Practice Questions'
             },
             {
-                value:'❌ Syllabus-Sensei Exlcusive App Access'
+                value:'❌ AI Resume Review'
             },
             {
                 value:'❌ Email Support'
@@ -24,7 +24,7 @@ export default[
     {
         id:1,
         name:'Monthly',
-        cost:7.99,
+        cost:1.99,
         paymentLink:'#',
         offering:[
             {
@@ -34,10 +34,10 @@ export default[
                 value:'✔️ Unlimited Retake Interview'
             },
             {
-                value:'✔️ Practice Question'
+                value:'✔️ Practice Questions'
             },
             {
-                value:'✔️ Syllabus-Sensei Exlcusive App Access'
+                value:'✔️ AI Resume Review'
             },
             {
                 value:'✔️ Email Support'
