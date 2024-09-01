@@ -28,7 +28,7 @@ export default[
         paymentLink:'#',
         offering:[
             {
-                value:'✔️ Unlimited Mock Interview'
+                value:'✔️ Create Unlimited Mock Interview'
             },
             {
                 value:'✔️ Unlimited Retake Interview'
