@@ -85,12 +85,13 @@ function Hero() {
                 {
                   icon: LucideCalendarSearch,
                   title: "AI based career help/guidance",
-                  description: "Our AI-based career guidance platform offers personalized advice tailored to your skills, interests, and career goals."
+                  description: "Our AI-based career guidance platform offers personalized advice tailored to your skills, interests, and career goals.",
+                  link: "https://career-councellor.vercel.app/"
                 }
               ].map((item, index) => (
                 <motion.a
                   key={index}
-                  href="#"
+                  href={item.link || "#"}
                   className="block rounded-xl border bg-white p-8 shadow-lg transition hover:shadow-xl hover:border-primary"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
